@@ -1,0 +1,7 @@
+interface:
+  display_name: "Unit Plan CADCraft · Explicit Use Only"
+  short_description: "Teaching reference skill for CADCraft MCP; explicit invocation only"
+  default_prompt: "Explicitly use the completed $unit-plan-cadcraft reference skill for this exercise with my local project reference."
+
+policy:
+  allow_implicit_invocation: false

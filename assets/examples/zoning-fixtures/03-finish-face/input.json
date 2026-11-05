@@ -1,0 +1,260 @@
+{
+  "id": "03-finish-face",
+  "title": "실내 마감선",
+  "synthetic": true,
+  "source": "Invented fixture; not extracted from A31 and not an approved design.",
+  "units": "mm",
+  "boundary_semantics": "finish_face",
+  "known_outer_width_mm": 8000,
+  "room_count": 6,
+  "entities": [
+    {
+      "id": "unit",
+      "kind": "polyline",
+      "layer": "ZONE_UNIT",
+      "closed": true,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          8000,
+          0
+        ],
+        [
+          8000,
+          7000
+        ],
+        [
+          0,
+          7000
+        ]
+      ]
+    },
+    {
+      "id": "room-1",
+      "kind": "polyline",
+      "layer": "ZONE_ROOM",
+      "closed": true,
+      "points": [
+        [
+          150,
+          150
+        ],
+        [
+          4850,
+          150
+        ],
+        [
+          4850,
+          3350
+        ],
+        [
+          150,
+          3350
+        ]
+      ]
+    },
+    {
+      "id": "name-1",
+      "kind": "text",
+      "layer": "ZONE_NAME",
+      "text": "거실·주방",
+      "point": [
+        2260.0,
+        1750.0
+      ],
+      "height": 130
+    },
+    {
+      "id": "room-2",
+      "kind": "polyline",
+      "layer": "ZONE_ROOM",
+      "closed": true,
+      "points": [
+        [
+          150,
+          3450
+        ],
+        [
+          2950,
+          3450
+        ],
+        [
+          2950,
+          6850
+        ],
+        [
+          150,
+          6850
+        ]
+      ]
+    },
+    {
+      "id": "name-2",
+      "kind": "text",
+      "layer": "ZONE_NAME",
+      "text": "침실1",
+      "point": [
+        1310.0,
+        5150.0
+      ],
+      "height": 130
+    },
+    {
+      "id": "room-3",
+      "kind": "polyline",
+      "layer": "ZONE_ROOM",
+      "closed": true,
+      "points": [
+        [
+          3050,
+          3450
+        ],
+        [
+          5850,
+          3450
+        ],
+        [
+          5850,
+          6850
+        ],
+        [
+          3050,
+          6850
+        ]
+      ]
+    },
+    {
+      "id": "name-3",
+      "kind": "text",
+      "layer": "ZONE_NAME",
+      "text": "침실2",
+      "point": [
+        4210.0,
+        5150.0
+      ],
+      "height": 130
+    },
+    {
+      "id": "room-4",
+      "kind": "polyline",
+      "layer": "ZONE_ROOM",
+      "closed": true,
+      "points": [
+        [
+          4950,
+          150
+        ],
+        [
+          7850,
+          150
+        ],
+        [
+          7850,
+          1850
+        ],
+        [
+          4950,
+          1850
+        ]
+      ]
+    },
+    {
+      "id": "name-4",
+      "kind": "text",
+      "layer": "ZONE_NAME",
+      "text": "현관",
+      "point": [
+        6160.0,
+        1000.0
+      ],
+      "height": 130
+    },
+    {
+      "id": "room-5",
+      "kind": "polyline",
+      "layer": "ZONE_ROOM",
+      "closed": true,
+      "points": [
+        [
+          4950,
+          1950
+        ],
+        [
+          7850,
+          1950
+        ],
+        [
+          7850,
+          3350
+        ],
+        [
+          4950,
+          3350
+        ]
+      ]
+    },
+    {
+      "id": "name-5",
+      "kind": "text",
+      "layer": "ZONE_NAME",
+      "text": "욕실",
+      "point": [
+        6160.0,
+        2650.0
+      ],
+      "height": 130
+    },
+    {
+      "id": "room-6",
+      "kind": "polyline",
+      "layer": "ZONE_ROOM",
+      "closed": true,
+      "points": [
+        [
+          5950,
+          3450
+        ],
+        [
+          7850,
+          3450
+        ],
+        [
+          7850,
+          6850
+        ],
+        [
+          5950,
+          6850
+        ]
+      ]
+    },
+    {
+      "id": "name-6",
+      "kind": "text",
+      "layer": "ZONE_NAME",
+      "text": "다용도실",
+      "point": [
+        6660.0,
+        5150.0
+      ],
+      "height": 130
+    }
+  ],
+  "expected_issues": [],
+  "wall_assumptions": {
+    "internal_thickness_mm": 100,
+    "external_thickness_mm": 200,
+    "status": "synthetic test assumption only"
+  },
+  "unspecified": [
+    "structure",
+    "entry opening",
+    "window positions",
+    "services",
+    "door swings"
+  ],
+  "expected_generation_status": "input_analysis_only_until_missing_design_conditions_resolved"
+}

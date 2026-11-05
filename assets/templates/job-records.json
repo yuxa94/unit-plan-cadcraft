@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.2.0",
+  "status": "draft",
+  "profile": null,
+  "profile_version": null,
+  "units": "mm",
+  "boundary_meaning": null,
+  "fixed_elements": [],
+  "selected_proposal": null,
+  "approvals": [],
+  "wall_assemblies": [],
+  "room_levels": [],
+  "openings": [],
+  "candidate_parts": [],
+  "sheet": {
+    "paper": null,
+    "scale": null,
+    "variant": null,
+    "frame_asset": null,
+    "font_dependencies": [],
+    "plot_dependencies": [],
+    "status": "unresolved"
+  },
+  "coverage": {
+    "wall": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "finish": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "insulation": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "hatch": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "door_window": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "furniture_equipment": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "centerline": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "dimension": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "annotation": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    },
+    "sheet": {
+      "required": true,
+      "status": "unresolved",
+      "source_evidence": [],
+      "handles": [],
+      "checks": [],
+      "unresolved": [
+        "Not yet evaluated"
+      ]
+    }
+  },
+  "verification": {
+    "geometry": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "visual_detail": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "saved_dwg": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "reference_benchmark": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "plot": {
+      "status": "not_run",
+      "evidence": []
+    }
+  }
+}
