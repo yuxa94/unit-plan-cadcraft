@@ -36,7 +36,7 @@ def find_cli():
                 dirs.append(os.path.join(base, 'Programs', 'ArtCraft', 'CADCraft') if env == 'LOCALAPPDATA'
                             else os.path.join(base, 'ArtCraft', 'CADCraft'))
     else:
-        dirs += ['/Applications/CADCraft.app/Contents/MacOS', '/usr/local/bin', '/opt/homebrew/bin']
+        dirs += [str(Path.home() / '.local' / 'bin'), '/usr/local/bin', '/opt/homebrew/bin']
     dirs += [os.path.join(os.getcwd(), 'tools', 'cadcraft')]
     for d in dirs:
         p = Path(d) / exe
@@ -64,8 +64,12 @@ def main():
     print('\n# Codex  (~/.codex/config.toml)\n' + toml)
     print('# Claude Code\nclaude mcp add cadcraft -- "' + cli + '" ' + ' '.join(args))
     if not a.headless:
-        app = str(Path(cli).with_name('cadcraft.exe' if os.name == 'nt' else 'cadcraft'))
-        print(f'\n# Open the app before the first CAD call\n"{app}" --control {PORT}')
+        if os.name == 'nt':
+            launch = f'"{Path(cli).with_name("cadcraft.exe")}" --control {PORT}'
+        else:  # the macOS app bundle does not contain cadcraft-cli
+            apps = [p for p in (Path.home() / 'Applications' / 'CADCraft.app', Path('/Applications/CADCraft.app')) if p.is_dir()]
+            launch = f'open -n "{apps[0] if apps else "/Applications/CADCraft.app"}" --args --control {PORT}'
+        print(f'\n# Open the app before the first CAD call\n{launch}')
 
     if a.write_codex:
         cfg = Path.home() / '.codex' / 'config.toml'

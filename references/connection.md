@@ -12,6 +12,13 @@ CADCraft는 MCP 서버를 내장하고 있습니다. 별도 MCP 소스, Python �
 4. 관리자 권한이 없으면 `...-windows-x64-portable.zip`을 수업 폴더 안 `tools/cadcraft/`에 풀어 써도 됩니다.
 5. 앱이 바로 꺼지면(일부 AMD 드라이버) PowerShell에서 `$env:WGPU_BACKEND="vulkan"` 후 실행합니다.
 
+## 1-1. macOS (강사 시연용)
+
+1. 같은 릴리스의 `cadcraft-<ver>-macos-universal.dmg`(앱)와 `cadcraft-cli-<ver>-macos-universal.zip`(CLI)을 받아 SHA256SUMS와 대조합니다. macOS 앱 번들에는 CLI가 들어 있지 않으므로 둘 다 받습니다.
+2. 앱은 `~/Applications/CADCraft.app`(또는 `/Applications`)에 복사하고, CLI는 `~/.local/bin/cadcraft-cli`처럼 PATH에 둡니다.
+3. 연결 모드로 열기: `open -n ~/Applications/CADCraft.app --args --control 7979` — 토큰은 `~/.cache/cadcraft-control-7979.token`에 생깁니다.
+4. macOS에서는 MCP 인자에 `--launch`를 더하면 첫 호출 때 앱을 자동으로 엽니다.
+
 ## 2. 두 가지 연결 방식
 
 | 방식 | 설정 | 쓰는 때 |

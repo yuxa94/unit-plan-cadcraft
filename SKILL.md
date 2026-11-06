@@ -17,7 +17,7 @@ Create designer-review drawings in CADCraft from room zoning and a **user-suppli
 - Tools: read [CADCraft tool guide](references/cadcraft-tools.md) before the first write. Prefer `execute` with JSON parameters over typed command lines; it returns handles.
 - References: read [local project profile](references/project-profile.md). Ask for the user's authorized reference DWG/DXF and keep it outside this package. No project style is configured by default.
 - Drafting: read [workflow](references/workflow.md), [detail rules](references/detail-rules.md) and [job records](references/job-records.md).
-- HTML zoning: open the [editor](assets/examples/zoning-editor/index.html); read the [input contract](references/input-contract.md) for schema 1.1 effective regions and holes. Eight synthetic [fixtures](assets/examples/zoning-fixtures/README.md) exercise boundary conditions.
+- HTML zoning: open the [editor](assets/examples/zoning-editor/index.html) (hosted copy: https://share.planby.us/haemaru-week2/editor/); read the [input contract](references/input-contract.md) for schema 1.1 effective regions and holes. Eight synthetic [fixtures](assets/examples/zoning-fixtures/README.md) exercise boundary conditions.
 
 ## Decide before affected drafting
 

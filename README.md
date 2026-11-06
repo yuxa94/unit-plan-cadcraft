@@ -17,7 +17,7 @@ references/
   input-contract.md         HTML 조닝 1.1 입력
   detail-rules.md · job-records.md · project-profile.md · benchmark.md
 assets/
-  examples/zoning-editor/   조닝 편집기 (HTML)
+  examples/zoning-editor/   조닝 편집기 (HTML) · 온라인: https://share.planby.us/haemaru-week2/editor/
   examples/zoning-fixtures/ 가상 조닝 8종 (DXF · JSON · SVG)
   templates/job-records.json
 scripts/
@@ -34,6 +34,6 @@ scripts/
 
 ## 확인한 범위
 
-2026-11-05, CADCraft 0.17.1 (`cadcraft-cli` macOS universal, 헤드리스)에서 `smoke_test.py` 6개 검사를 통과했습니다: 활성 도면 경로, 벽 띠 면적, 해치 섬, DWG 재열기 경고 없음, 저장 객체 수, 한글 문자 보존. Windows 설치·앱 연결(`--connect`)·Malgun Gothic 글꼴과 실제 단위세대 작성은 이 기록에 포함되지 않았습니다. 수업 전 강사 PC에서 확인합니다.
+2026-11-05, CADCraft 0.17.1 (`cadcraft-cli` macOS universal, 헤드리스)에서 `smoke_test.py` 6개 검사를 통과했습니다: 활성 도면 경로, 벽 띠 면적, 해치 섬, DWG 재열기 경고 없음, 저장 객체 수, 한글 문자 보존. 2026-11-06에는 macOS 앱(공증된 DMG)을 `--control 7979`로 열고 `cadcraft-cli mcp --connect`로 붙여, 한국어 UI 창에 사각형·원이 그려지고 `screenshot`이 동작하는 것을 확인했습니다. Windows 설치·Malgun Gothic 글꼴과 실제 단위세대 작성은 이 기록에 포함되지 않았습니다. 수업 전 강사 PC에서 확인합니다.
 
 CADCraft는 초기 개발 단계의 오픈소스(MIT/Apache-2.0)입니다. 결과는 설계 검토용이며 AutoCAD 출력과 같다고 주장하지 않습니다.
