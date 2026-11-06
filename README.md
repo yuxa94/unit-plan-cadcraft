@@ -17,7 +17,7 @@ references/
   input-contract.md         HTML 조닝 1.1 입력
   detail-rules.md · job-records.md · project-profile.md · benchmark.md
 assets/
-  examples/zoning-editor/   조닝 편집기 (HTML) · 온라인: https://share.planby.us/haemaru-week2/editor/
+  examples/zoning-editor/   조닝 편집기 (HTML) · 온라인: https://share.planby.us/haemaru-week2/editor/ · 저장소: https://github.com/yuxa94/unit-zoning-sketch
   examples/zoning-fixtures/ 가상 조닝 8종 (DXF · JSON · SVG)
   templates/job-records.json
 scripts/

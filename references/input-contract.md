@@ -4,7 +4,7 @@
 
 ## HTML editor 1.1
 
-[편집기](../assets/examples/zoning-editor/index.html)(온라인 사본: https://share.planby.us/haemaru-week2/editor/)는 실 사각형, 8개 조절점, 앞뒤 순서, 되돌리기, JSON/DXF 저장을 지원합니다.
+[편집기](../assets/examples/zoning-editor/index.html)(온라인 사본: https://share.planby.us/haemaru-week2/editor/ · 저장소: https://github.com/yuxa94/unit-zoning-sketch)는 실 사각형, 8개 조절점, 앞뒤 순서, 되돌리기, JSON/DXF 저장을 지원합니다.
 
 - editor.rooms는 뒤→앞 순서의 편집용 원본 사각형입니다. 마지막 실이 겹친 부분을 차지합니다.
 - room_regions의 각 outer minus holes가 최종 유효 영역입니다. 원본 사각형을 최종 CAD 경계로 다시 사용하지 마세요.
